@@ -1,0 +1,34 @@
+
+body{
+    font-family: "Roboto", system-ui;
+}
+
+.navbar .nav-link{
+    color: rgb(255 255 255) !important;
+    font-weight: 400;
+    font-size:18px
+}
+
+.carousel-item img {
+
+    max-height: 800px;
+    height: auto;
+    background-size: contain;
+    object-fit: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+
+}
+
+
+.icons{
+
+    transition:  all 0.3s ease-in-out;
+    
+}
+
+.icons:hover {
+    transform: scale(1.5);
+    transition: all 0.3s ease-in-out;
+}
+
